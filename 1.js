@@ -5,7 +5,7 @@ function swap(arr) {
   for (let i = 0; i < arr.length; i++) {
     if (i === 0) {
       console.log(abcd[i] + ' "' + arr.join('", "') + '"');
-    } else if (i % 2 !== 0 && i) {
+    } else if (i % 2 !== 0) {
       const arr_i = arr.splice(i, 1);
       const new_arr = arr_i.concat(arr);
       arr = new_arr;
